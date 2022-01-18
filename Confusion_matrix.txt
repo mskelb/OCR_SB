@@ -19,18 +19,3 @@ The remaining but hidden errors make up 73.10%
 
 ======================================================================
 
-Old Evaluation result 2020-07-20 from voting using the 5 best models:
-
-Got mean normalized label error rate of 3.94% (3301 errs, 83742 total chars, 3364 sync errs)
-GT     PRED     COUNT    PERCENT   
-ä      a           104      3.09%
-{ }    {}           67      1.99%
-ä      å            62      1.84%
-ö      o            56      1.66%
-å      ä            43      1.28%
-n      u            38      1.13%
-u      n            38      1.13%
-a      ä            38      1.13%
-t      l            34      1.01%
-”      ''           33      1.96%
-The remaining but hidden errors make up 83.77%
