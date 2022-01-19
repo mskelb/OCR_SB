@@ -14,6 +14,6 @@ Evalute the predicted sentences produced by the `calamari-predict` script againt
 	 usage: calamari-eval --gt path_to_test_data/*.gt.txt --pred path_to_predictions/*.pred.txt
 
 ### Version 
-
+Calamari 2.1.2
 
  
