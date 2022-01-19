@@ -15,6 +15,7 @@ Evalute the predicted sentences produced by the `calamari-predict` script againt
 
 ### Version 
 Calamari 2.1.2 (2022/01/18)
+https://github.com/Calamari-OCR/calamari
 
 ### Dataset 
 This dataset contains text line images (bin.png) and their corresponding transcriptions (gt.txt) -- further divided into training and test sets. <br/> 
