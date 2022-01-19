@@ -2,6 +2,7 @@
 
 ## Train
 Training an ensemble of 5 models based on a cross-fold on the provided training data. 
+
 	 calamari-cross-fold-train --network=cnn=80:3x3,pool=2x2,cnn=100:3x3,pool=2x2,lstm=200,dropout=0.5,lstm=200,dropout=0.5 --files "/PATH_TO_TRAINING_DATA/*.png" --best_models_dir "/SOME_OUTPUT_DIR" --early_stopping_nbest=5 
 
 ## Predict
