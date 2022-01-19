@@ -11,7 +11,7 @@ Confidence voting to different predictions of the 5 best models.
 ### Evaluation
 Evalute the predicted sentences produced by the `calamari-predict` script againt the provided ground truth.
 
-	 usage: calamari-eval --gt path_to_test_data/TEST_DATA/*.gt.txt --pred path_to_predictions/*.pred.txt
+	 usage: calamari-eval --gt path_to_test_data/*.gt.txt --pred path_to_predictions/*.pred.txt
 
 ### Version 
 Calamari 2.1.2 (2022/01/18)
