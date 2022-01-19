@@ -1,4 +1,4 @@
-# Command–Line Interface
+# Instructions for the command–line interface
 
 ## Train
 Training an ensemble of 5 models based on a cross-fold on the provided training data using the specific network architecture. This will train 5 models using 80% of the provided data for training and 20% for validation.
