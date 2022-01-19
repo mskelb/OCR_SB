@@ -16,4 +16,8 @@ Evalute the predicted sentences produced by the `calamari-predict` script againt
 ### Version 
 Calamari 2.1.2 (2022/01/18)
 
+### DATA 
+Test data contains: 1671 lines 
+Training data contains: 6742 lines 
+
  
