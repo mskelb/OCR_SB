@@ -4,10 +4,10 @@
 
 ## Testing
  
- 	 ST
+ 	 calamari-predict --checkpoint "/Users/mollyskelbye/Desktop/OCR/*.ckpt.json” --files "/Users/mollyskelbye/Documents/GitHub/EXJOBB/TEST_20%/*.bin.png" --output_dir "/Users/mollyskelbye/Documents/GitHub/EXJOBB/TEST_20%”
  
 ## Evaluation of results
 
-	 Blabla
+	 calamari-eval --gt ’’/Users/mollyskelbye/Desktop/OCR/OCR_SB/TEST_1671/*.gt.txt" --pred ”/Users/mollyskelbye/Desktop/OCR/*.pred.txt”’
 
  
