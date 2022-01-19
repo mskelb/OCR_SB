@@ -8,7 +8,7 @@
 Confidence voting to different predictions of the 5 best models.
   
  	 usage: calamari-predict --checkpoint path_to_model_0.ckpt ... path_to_model_4.ckpt --files path_to_test_data/*.bin.png --output_dir some_output_dir
-### Evaluate
+### Evaluation
 Evalute the predicted sentences produced by the `calamari-predict` script againt the provided ground truth data.
 
 	 usage: calamari-eval --gt path_to_test_data/*.gt.txt --pred path_to_predictions/*.pred.txt
