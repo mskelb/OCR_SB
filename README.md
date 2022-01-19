@@ -1,7 +1,7 @@
 # Instructions for the command–line interface
 
 ## Training 
-Training an ensemble of 5 models based on a cross-fold on the provided training data. Training is conducted using the optimized network architecture. A total of 5 models will be trained using 80% of the provided data for training, and 20% for validation.
+Training an ensemble of 5 models based on a cross-fold on the provided training data. Training is conducted using the optimized CNN–LSTM neural network architecture. A total of 5 models will be trained using 80% of the provided data for training, and 20% for validation.
 
 	 usage: calamari-cross-fold-train --network=cnn=80:3x3,pool=2x2,cnn=100:3x3,pool=2x2,lstm=200,dropout=0.5,lstm=200,dropout=0.5 --files path_to_training_data/*.png --best_models_dir some_output_dir --early_stopping_nbest=5 
 
