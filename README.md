@@ -1,13 +1,13 @@
 # Command–Line Interface
 
-## Training 
-	 calamari-cross-fold-train --network=cnn=80:3x3,pool=2x2,cnn=100:3x3,pool=2x2,lstm=200,dropout=0.5,lstm=200,dropout=0.5 --files "/PATHTOFILES/TRAIN_6742/*.png" --best_models_dir "/OUTPUTDIR/" --early_stopping_nbest=5 
+## Train
+	 calamari-cross-fold-train --network=cnn=80:3x3,pool=2x2,cnn=100:3x3,pool=2x2,lstm=200,dropout=0.5,lstm=200,dropout=0.5 --files "/PATH_TO_TRAINING_DATA/*.png" --best_models_dir "/SOME_OUTPUT_DIR" --early_stopping_nbest=5 
 
-## Testing
+## Predict
  
- 	 calamari-predict --checkpoint "/Users/mollyskelbye/Desktop/OCR/*.ckpt.json” --files "/Users/mollyskelbye/Documents/GitHub/EXJOBB/TEST_20%/*.bin.png" --output_dir "/Users/mollyskelbye/Documents/GitHub/EXJOBB/TEST_20%”
+ 	 calamari-predict --checkpoint "/PATH_TO_TRAINED_MODELS/*.ckpt.json" --files "/PATH_TO_TEST_DATA/*.bin.png" --output_dir "/SOME_OUTPUT_DIR"
  
-## Evaluation of results
+## Evaluate results
 
 	 calamari-eval --gt ’’/Users/mollyskelbye/Desktop/OCR/OCR_SB/TEST_1671/*.gt.txt" --pred ”/Users/mollyskelbye/Desktop/OCR/*.pred.txt”’
 
