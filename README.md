@@ -17,6 +17,7 @@ Evalute the predicted sentences produced by the `calamari-predict` script againt
 Calamari 2.1.2 (2022/01/18)
 
 ### Dataset 
+This dataset contains text line images (bin.png) and their corresponding transcriptions (gt.txt) divided into training and test data. <br/> 
 `Test data: 1671 lines` <br/> 
 `Training data: 6742 lines` 
 
