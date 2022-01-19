@@ -19,7 +19,7 @@ Calamari 2.1.2 (2022/01/18)
 ### Dataset 
 This dataset contains text line images (bin.png) and their corresponding transcriptions (gt.txt) divided into training and test sets. <br/> 
 	
-	Test data: 1671 lines
-	Training data: 6742 lines 
+	test dataset: 1671 lines
+	training dataset: 6742 lines 
 
  
