@@ -18,7 +18,7 @@ Calamari 2.1.2 (2022/01/18)
 https://github.com/Calamari-OCR/calamari
 
 ### Dataset 
-This dataset contains text line images (bin.png) and their corresponding ground truth (gt.txt). The dataset has been further divided into a training and a test set. <br/> 
+This dataset contains text line images (bin.png) and their corresponding ground truth (gt.txt). The dataset has been further divided into a training and a test subset. <br/> 
 	
 	test dataset: 1671 lines
 	training dataset: 6742 lines 
