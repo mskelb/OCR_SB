@@ -1,12 +1,12 @@
 # Instructions for the command–line interface
 
-## Train
+## Training 
 Training an ensemble of 5 models based on a cross-fold on the provided training data using the specific network architecture. This will train 5 models using 80% of the provided data for training and 20% for validation.
 
 	 calamari-cross-fold-train --network=cnn=80:3x3,pool=2x2,cnn=100:3x3,pool=2x2,lstm=200,dropout=0.5,lstm=200,dropout=0.5 --files "/PATH_TO_TRAINING_DATA/*.png" --best_models_dir "/SOME_OUTPUT_DIR" --early_stopping_nbest=5 
 
-## Predict
- 
+## Voting
+  Confidence voting to different predictions of the 5 models.
  	 calamari-predict --checkpoint "/PATH_TO_TRAINED_MODELS/*.ckpt.json" --files "/PATH_TO_TEST_DATA/*.bin.png" --output_dir "/SOME_OUTPUT_DIR"
  
 ## Evaluate results
