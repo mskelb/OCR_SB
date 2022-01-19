@@ -1,9 +1,13 @@
+
+## Training 
+	 S
+
+## Testing
  
-Commands 
+ 	 ST
+ 
+## Evaluation of results
 
-#Training: 
+	 Blabla
 
-#Testing:
-
-#Evaluation of results: 
  
