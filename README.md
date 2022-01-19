@@ -1,2 +1,9 @@
-# OCR_SB
+ 
+Commands 
+
+#Training: 
+
+#Testing:
+
+#Evaluation of results: 
  
