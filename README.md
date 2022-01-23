@@ -18,7 +18,7 @@ Calamari 2.1.2 (2022/01/18)
 https://github.com/Calamari-OCR/calamari
 
 ### Dataset 
-This dataset contain text line images (bin.png) and their corresponding ground truth (gt.txt). The dataset has been further divided into training and test sets. <br/> 
+This dataset contain text line images (bin.png) and their corresponding ground truth (gt.txt) from selected Swedish newspapers spanning 1848–1880. The dataset has been further divided into training and test sets. <br/> 
 	
 	test dataset: 1671 lines
 	training dataset: 6742 lines 
