@@ -1,6 +1,6 @@
 
 
-Evaluation result 2021-01-18 from voting using the 5 best models:
+Evaluation result 2022-01-18 from voting using the 5 best models:
 ======================================================================
 
 Got mean normalized label error rate of 2.25% (1884 errs, 83742 total chars, 1922 sync errs)
