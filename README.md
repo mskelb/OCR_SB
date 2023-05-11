@@ -1,4 +1,4 @@
-This repository contains command-line commands to train character recognition models using Calamari OCR version 2.1.2 and experiments from the paper "OCR Processing of Swedish Historical Newspapers Using Deep Hybrid CNN–LSTM Networks".
+This repository contains command-line commands to train character recognition models using Calamari OCR version 2.1.2 and experiments from the paper [OCR Processing of Swedish Historical Newspapers Using Deep Hybrid CNN–LSTM Networks](https://acl-bg.org/proceedings/2021/RANLP%202021/pdf/2021.ranlp-1.23.pdf).
 
 ## Instructions for the command–line interface
 
