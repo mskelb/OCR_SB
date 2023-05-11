@@ -1,7 +1,9 @@
+This repository contains command-line commands to train character recognition models using Calamari OCR version 2.1.2 and experiments from the paper "OCR Processing of Swedish Historical Newspapers Using Deep Hybrid CNN–LSTM Networks".
+
 ## Instructions for the command–line interface
 
 ### Training 
-The `calamari-cross-fold-train` command will train an ensemble of 5 models based on a cross–fold of the provided training data. Here, training duration is adapted by the `--early_stopping_nbest=5` parameter.
+The `calamari-cross-fold-train` command will train an ensemble of 5 models based on a cross–fold of the provided training data. Training duration is adapted by the `--early_stopping_nbest=5` parameter.
 
 	usage: calamari-cross-fold-train --network=cnn=80:3x3,pool=2x2,cnn=100:3x3,pool=2x2,lstm=200,dropout=0.5,lstm=200,dropout=0.5 --files path_to_training_data/*.png --best_models_dir some_output_dir --early_stopping_nbest=5 
 ### Voting
