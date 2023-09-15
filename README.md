@@ -1,7 +1,7 @@
 ## About this repository 
-📌 This repository contains commands to cross-fold-train an ensemble of 5 character recognition models and experiments from the paper [OCR Processing of Swedish Historical Newspapers Using Deep Hybrid CNN–LSTM Networks](https://acl-bg.org/proceedings/2021/RANLP%202021/pdf/2021.ranlp-1.23.pdf). 
+📌 This repository contains commands to cross-fold-train an ensemble of 5 character recognition models -- as well as experiments from the paper [OCR Processing of Swedish Historical Newspapers Using Deep Hybrid CNN–LSTM Networks](https://acl-bg.org/proceedings/2021/RANLP%202021/pdf/2021.ranlp-1.23.pdf). 
 
-📌 When experimenting with the open source OCR engine Calamari, we are able to show that mixed deep CNN–LSTM hybrid models outperform previous models on the task of character recognition of Swedish historical newspapers spanning between 1818 and 1848. We achieved an average character accuracy rate (CAR) of 97.43%, which is a new state–of–the–art result on 19th-century Swedish newspaper text.
+📌 When experimenting with the open source OCR engine Calamari, we were able to show that mixed deep CNN–LSTM hybrid models outperform previous models on the task of character recognition of Swedish historical newspapers spanning between 1818 and 1848. We achieved an average character accuracy rate (CAR) of 97.43%, which is a new state–of–the–art result on 19th-century Swedish newspaper text.
 
 ## Instructions for the command–line interface
 
